@@ -19,8 +19,12 @@ $(document).ready(function() {
       $("#isosceles").show();
     }
 
-    else ((oneInt !== twoInt) && (twoInt !== threeInt) && (oneInt !== threeInt)) {
-      $("#scalene").show();
+    else if ((oneInt !== twoInt) && (twoInt !== threeInt) && (oneInt !== threeInt)) {
+      $("#scalene").show(); 
     }
-  }
-}
+      
+    else {
+      $('#nonTriangle').show();
+    }
+  });
+});
