@@ -4,7 +4,7 @@ $(document).ready(function() {
     const twoInt = parseInt($("input#number2").val());
     const threeInt = parseInt($("input#number3").val());
   
-    if ()
+    if ((oneInt === twoInt) || (twoInt === threeInt) || ()
   
   
   
